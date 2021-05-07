@@ -11,7 +11,7 @@ with open('day24.txt', 'r') as f:
             input_list.append(item)
 
 example = []
-with open('day24-example.txt', 'r') as f:
+with open('example_day24.txt', 'r') as f:
     strings = f.read().splitlines()
     for item in strings:
         if item:
